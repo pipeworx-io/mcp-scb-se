@@ -1,16 +1,18 @@
-# mcp-scb-se
+# @pipeworx/scb-se
 
-Statistics Sweden PxWeb MCP.
+[Statistics Sweden (SCB)](https://www.scb.se) MCP — PxWeb JSON-stat API serving the Swedish statistical database. Keyless.
 
-Part of [Pipeworx](https://pipeworx.io) — an MCP gateway connecting AI agents to 673+ live data sources.
+Part of [Pipeworx](https://pipeworx.io) — an MCP gateway connecting AI agents to 1394+ live data sources.
 
 ## Tools
 
-| Tool | Description |
-|------|-------------|
-| `subjects` | Navigate the subject tree. |
-| `table_meta` | Table definition (dimensions, valid values). |
-| `query_table` | Pull data from a table. body is a PxWeb query object. |
+- `subjects(path?)` — navigate the subject tree (root or sub-path)
+- `table_meta(path)` — table definition (dimensions, valid values)
+- `query_table(path, body)` — request data from a table; `body` is a PxWeb query (`{query: [{code, selection: ...}], response: {format: "json-stat2"}}`)
+
+## Data source
+
+`https://api.scb.se/OV0104/v1/doris/en/ssd/`
 
 ## Quick Start
 
@@ -26,7 +28,7 @@ Add to your MCP client (Claude Desktop, Cursor, Windsurf, etc.):
 }
 ```
 
-Or connect to the full Pipeworx gateway for access to all 673+ data sources:
+Or connect to the full Pipeworx gateway for access to all 1394+ data sources:
 
 ```json
 {
@@ -50,7 +52,7 @@ The gateway picks the right tool and fills the arguments automatically.
 
 ## More
 
-- [All tools and guides](https://github.com/pipeworx-io/examples)
+- [Docs and guides](https://pipeworx.io/docs)
 - [pipeworx.io](https://pipeworx.io)
 
 ## License
