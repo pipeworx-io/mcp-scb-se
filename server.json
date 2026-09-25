@@ -2,8 +2,8 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.pipeworx-io/scb-se",
   "title": "Scb Se",
-  "description": "Statistics Sweden (SCB) — PxWeb JSON-stat statistical database",
-  "version": "0.1.0",
+  "description": "Statistics Sweden PxWeb MCP.",
+  "version": "0.1.1",
   "websiteUrl": "https://pipeworx.io/packs/scb-se",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-scb-se",
