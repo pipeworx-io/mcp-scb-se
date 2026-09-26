@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-scb-se",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Statistics Sweden PxWeb MCP.",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-96201b0a3e47217ec2ac2206fafb93136bf709dc8bda8595ca656585df5a0455",
-    "sourceCommit": "00c836ddeaecbdd581dcfb0fb1842efea104006e"
+    "sourceHash": "v1-645d534759be987148f543b56a76646c88fa0e9af9940476ee4c1cfe23ed3529",
+    "sourceCommit": "6fe8fb3e01138dfc4ebe7d5c246503aab9278d06"
   }
 }
