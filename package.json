@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-scb-se",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Statistics Sweden PxWeb MCP.",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "scb-se",
     "gatewaySlug": "scb-se",
-    "sourceHash": "v1-55148fa03bf3052eca12e4d6e007b8ac38cacb09fbd374696064e93636f7b467",
-    "sourceCommit": "6bae4cfa7b6a73bbe014dc8820a19c80c842b21e"
+    "sourceHash": "v1-72b4c7d55d9640a9bb5f10a552e9486162b5a8d7f272db241a97978f6c5af8a7",
+    "sourceCommit": "8fc802aa5e23be625ce08d97178f5676c7bc93f3"
   }
 }
